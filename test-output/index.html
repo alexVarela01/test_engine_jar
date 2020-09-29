@@ -1,0 +1,2515 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
+              <span class="suite-name border-passed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Command_line_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Command_line_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Command_line_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Command_line_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Command_line_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Command_line_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Command_line_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">82 methods,   82 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="excelManagerFailure">excelManagerFailure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="excelManagerSuccess">excelManagerSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="excelManagerTestDataFailure">excelManagerTestDataFailure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="excelManagerTestDataSuccess">excelManagerTestDataSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testCheckClassFail">testCheckClassFail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testCheckClassSuccess">testCheckClassSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testCheckContemFail">testCheckContemFail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testCheckContemSuccess">testCheckContemSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testCheckCorFail">testCheckCorFail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testCheckCorSuccess">testCheckCorSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testCheckDisponivelInvalidValue">testCheckDisponivelInvalidValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testCheckDisponivelNaoFail">testCheckDisponivelNaoFail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testCheckDisponivelNaoSuccess">testCheckDisponivelNaoSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testCheckDisponivelSimFail">testCheckDisponivelSimFail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testCheckDisponivelSimSuccess">testCheckDisponivelSimSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testCheckInvalidAttributeName">testCheckInvalidAttributeName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testCheckInvalidXpath">testCheckInvalidXpath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testCheckNullxPath">testCheckNullxPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testCheckTextoFail">testCheckTextoFail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testCheckTextoSuccess">testCheckTextoSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testCheckUrlFail">testCheckUrlFail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testCheckUrlSuccess">testCheckUrlSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testCheckVisivelInvalidValue">testCheckVisivelInvalidValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testCheckVisivelNaoFail">testCheckVisivelNaoFail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testCheckVisivelNaoSuccess">testCheckVisivelNaoSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testCheckVisivelSimFail">testCheckVisivelSimFail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testCheckVisivelSimSuccess">testCheckVisivelSimSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testClickFailure">testClickFailure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testClickNull">testClickNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testClickSuccess">testClickSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testClickXYInvalidX">testClickXYInvalidX</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testClickXYInvalidXY">testClickXYInvalidXY</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testClickXYInvalidY">testClickXYInvalidY</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testClickXYSuccess">testClickXYSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testMoveMouseObjectInvalidxPath">testMoveMouseObjectInvalidxPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testMoveMouseObjectNullxPath">testMoveMouseObjectNullxPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testMoveMouseObjectSuccess">testMoveMouseObjectSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testMoveMouseXYInvalidX">testMoveMouseXYInvalidX</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testMoveMouseXYInvalidXY">testMoveMouseXYInvalidXY</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testMoveMouseXYInvalidY">testMoveMouseXYInvalidY</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testMoveMouseXYSuccess">testMoveMouseXYSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testNavigateFailure">testNavigateFailure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testNavigateSuccess">testNavigateSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testPasteValueEmptyValue">testPasteValueEmptyValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testPasteValueInvalidxPath">testPasteValueInvalidxPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testPasteValueNullValue">testPasteValueNullValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testPasteValueNullxPath">testPasteValueNullxPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testPasteValueSuccess">testPasteValueSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testReadDynamicLineSuccess">testReadDynamicLineSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testReadDynamicValueSuccess">testReadDynamicValueSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testScrollXYInvalidX">testScrollXYInvalidX</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testScrollXYSuccess">testScrollXYSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testSelectInvalidValue">testSelectInvalidValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testSelectInvalidXpath">testSelectInvalidXpath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testSelectNullxPath">testSelectNullxPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testSelectSuccess">testSelectSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testSelectWindowSuccess">testSelectWindowSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testSetInvalid">testSetInvalid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testSetNull">testSetNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testSetSuccess">testSetSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testSwitchInvalid">testSwitchInvalid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testSwitchSuccess">testSwitchSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testTypeNullxPath">testTypeNullxPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testTypeSuccessWith1Word">testTypeSuccessWith1Word</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testTypeSuccessWith2Words">testTypeSuccessWith2Words</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testTypeSuccessWithAlt">testTypeSuccessWithAlt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testTypeSuccessWithAltAndWord">testTypeSuccessWithAltAndWord</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testTypeSuccessWithCtrl">testTypeSuccessWithCtrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testTypeSuccessWithCtrlAndWord">testTypeSuccessWithCtrlAndWord</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testTypeSuccessWithNull">testTypeSuccessWithNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testTypeSuccessWithShift">testTypeSuccessWithShift</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testTypeSuccessWithShiftAndWord">testTypeSuccessWithShiftAndWord</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testWaitForElementFailure">testWaitForElementFailure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testWaitForElementNull">testWaitForElementNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testWaitForElementSuccess">testWaitForElementSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testWaitLettersInValue">testWaitLettersInValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testWaitNegativeValue">testWaitNegativeValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testWaitSuccess">testWaitSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testWriteDynamicLineInvalid">testWriteDynamicLineInvalid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testWriteDynamicLineSuccess">testWriteDynamicLineSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testWriteDynamicValueInvalid">testWriteDynamicValueInvalid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="knowler_unitTests.TestLogic" hash-for-method="testWriteDynamicValueSuccess">testWriteDynamicValueSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">knowler_unitTests.TestLogic</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="excelManagerFailure">
+                  </a> <!-- excelManagerFailure -->
+                  <span class="method-name">excelManagerFailure</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="excelManagerSuccess">
+                  </a> <!-- excelManagerSuccess -->
+                  <span class="method-name">excelManagerSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="excelManagerTestDataFailure">
+                  </a> <!-- excelManagerTestDataFailure -->
+                  <span class="method-name">excelManagerTestDataFailure</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="excelManagerTestDataSuccess">
+                  </a> <!-- excelManagerTestDataSuccess -->
+                  <span class="method-name">excelManagerTestDataSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckClassFail">
+                  </a> <!-- testCheckClassFail -->
+                  <span class="method-name">testCheckClassFail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckClassSuccess">
+                  </a> <!-- testCheckClassSuccess -->
+                  <span class="method-name">testCheckClassSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckContemFail">
+                  </a> <!-- testCheckContemFail -->
+                  <span class="method-name">testCheckContemFail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckContemSuccess">
+                  </a> <!-- testCheckContemSuccess -->
+                  <span class="method-name">testCheckContemSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckCorFail">
+                  </a> <!-- testCheckCorFail -->
+                  <span class="method-name">testCheckCorFail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckCorSuccess">
+                  </a> <!-- testCheckCorSuccess -->
+                  <span class="method-name">testCheckCorSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckDisponivelInvalidValue">
+                  </a> <!-- testCheckDisponivelInvalidValue -->
+                  <span class="method-name">testCheckDisponivelInvalidValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckDisponivelNaoFail">
+                  </a> <!-- testCheckDisponivelNaoFail -->
+                  <span class="method-name">testCheckDisponivelNaoFail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckDisponivelNaoSuccess">
+                  </a> <!-- testCheckDisponivelNaoSuccess -->
+                  <span class="method-name">testCheckDisponivelNaoSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckDisponivelSimFail">
+                  </a> <!-- testCheckDisponivelSimFail -->
+                  <span class="method-name">testCheckDisponivelSimFail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckDisponivelSimSuccess">
+                  </a> <!-- testCheckDisponivelSimSuccess -->
+                  <span class="method-name">testCheckDisponivelSimSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckInvalidAttributeName">
+                  </a> <!-- testCheckInvalidAttributeName -->
+                  <span class="method-name">testCheckInvalidAttributeName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckInvalidXpath">
+                  </a> <!-- testCheckInvalidXpath -->
+                  <span class="method-name">testCheckInvalidXpath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckNullxPath">
+                  </a> <!-- testCheckNullxPath -->
+                  <span class="method-name">testCheckNullxPath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckTextoFail">
+                  </a> <!-- testCheckTextoFail -->
+                  <span class="method-name">testCheckTextoFail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckTextoSuccess">
+                  </a> <!-- testCheckTextoSuccess -->
+                  <span class="method-name">testCheckTextoSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckUrlFail">
+                  </a> <!-- testCheckUrlFail -->
+                  <span class="method-name">testCheckUrlFail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckUrlSuccess">
+                  </a> <!-- testCheckUrlSuccess -->
+                  <span class="method-name">testCheckUrlSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckVisivelInvalidValue">
+                  </a> <!-- testCheckVisivelInvalidValue -->
+                  <span class="method-name">testCheckVisivelInvalidValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckVisivelNaoFail">
+                  </a> <!-- testCheckVisivelNaoFail -->
+                  <span class="method-name">testCheckVisivelNaoFail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckVisivelNaoSuccess">
+                  </a> <!-- testCheckVisivelNaoSuccess -->
+                  <span class="method-name">testCheckVisivelNaoSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckVisivelSimFail">
+                  </a> <!-- testCheckVisivelSimFail -->
+                  <span class="method-name">testCheckVisivelSimFail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckVisivelSimSuccess">
+                  </a> <!-- testCheckVisivelSimSuccess -->
+                  <span class="method-name">testCheckVisivelSimSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickFailure">
+                  </a> <!-- testClickFailure -->
+                  <span class="method-name">testClickFailure</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickNull">
+                  </a> <!-- testClickNull -->
+                  <span class="method-name">testClickNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickSuccess">
+                  </a> <!-- testClickSuccess -->
+                  <span class="method-name">testClickSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickXYInvalidX">
+                  </a> <!-- testClickXYInvalidX -->
+                  <span class="method-name">testClickXYInvalidX</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickXYInvalidXY">
+                  </a> <!-- testClickXYInvalidXY -->
+                  <span class="method-name">testClickXYInvalidXY</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickXYInvalidY">
+                  </a> <!-- testClickXYInvalidY -->
+                  <span class="method-name">testClickXYInvalidY</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickXYSuccess">
+                  </a> <!-- testClickXYSuccess -->
+                  <span class="method-name">testClickXYSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMoveMouseObjectInvalidxPath">
+                  </a> <!-- testMoveMouseObjectInvalidxPath -->
+                  <span class="method-name">testMoveMouseObjectInvalidxPath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMoveMouseObjectNullxPath">
+                  </a> <!-- testMoveMouseObjectNullxPath -->
+                  <span class="method-name">testMoveMouseObjectNullxPath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMoveMouseObjectSuccess">
+                  </a> <!-- testMoveMouseObjectSuccess -->
+                  <span class="method-name">testMoveMouseObjectSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMoveMouseXYInvalidX">
+                  </a> <!-- testMoveMouseXYInvalidX -->
+                  <span class="method-name">testMoveMouseXYInvalidX</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMoveMouseXYInvalidXY">
+                  </a> <!-- testMoveMouseXYInvalidXY -->
+                  <span class="method-name">testMoveMouseXYInvalidXY</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMoveMouseXYInvalidY">
+                  </a> <!-- testMoveMouseXYInvalidY -->
+                  <span class="method-name">testMoveMouseXYInvalidY</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMoveMouseXYSuccess">
+                  </a> <!-- testMoveMouseXYSuccess -->
+                  <span class="method-name">testMoveMouseXYSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigateFailure">
+                  </a> <!-- testNavigateFailure -->
+                  <span class="method-name">testNavigateFailure</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigateSuccess">
+                  </a> <!-- testNavigateSuccess -->
+                  <span class="method-name">testNavigateSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasteValueEmptyValue">
+                  </a> <!-- testPasteValueEmptyValue -->
+                  <span class="method-name">testPasteValueEmptyValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasteValueInvalidxPath">
+                  </a> <!-- testPasteValueInvalidxPath -->
+                  <span class="method-name">testPasteValueInvalidxPath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasteValueNullValue">
+                  </a> <!-- testPasteValueNullValue -->
+                  <span class="method-name">testPasteValueNullValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasteValueNullxPath">
+                  </a> <!-- testPasteValueNullxPath -->
+                  <span class="method-name">testPasteValueNullxPath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasteValueSuccess">
+                  </a> <!-- testPasteValueSuccess -->
+                  <span class="method-name">testPasteValueSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testReadDynamicLineSuccess">
+                  </a> <!-- testReadDynamicLineSuccess -->
+                  <span class="method-name">testReadDynamicLineSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testReadDynamicValueSuccess">
+                  </a> <!-- testReadDynamicValueSuccess -->
+                  <span class="method-name">testReadDynamicValueSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testScrollXYInvalidX">
+                  </a> <!-- testScrollXYInvalidX -->
+                  <span class="method-name">testScrollXYInvalidX</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testScrollXYSuccess">
+                  </a> <!-- testScrollXYSuccess -->
+                  <span class="method-name">testScrollXYSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectInvalidValue">
+                  </a> <!-- testSelectInvalidValue -->
+                  <span class="method-name">testSelectInvalidValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectInvalidXpath">
+                  </a> <!-- testSelectInvalidXpath -->
+                  <span class="method-name">testSelectInvalidXpath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectNullxPath">
+                  </a> <!-- testSelectNullxPath -->
+                  <span class="method-name">testSelectNullxPath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectSuccess">
+                  </a> <!-- testSelectSuccess -->
+                  <span class="method-name">testSelectSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectWindowSuccess">
+                  </a> <!-- testSelectWindowSuccess -->
+                  <span class="method-name">testSelectWindowSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetInvalid">
+                  </a> <!-- testSetInvalid -->
+                  <span class="method-name">testSetInvalid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetNull">
+                  </a> <!-- testSetNull -->
+                  <span class="method-name">testSetNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetSuccess">
+                  </a> <!-- testSetSuccess -->
+                  <span class="method-name">testSetSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSwitchInvalid">
+                  </a> <!-- testSwitchInvalid -->
+                  <span class="method-name">testSwitchInvalid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSwitchSuccess">
+                  </a> <!-- testSwitchSuccess -->
+                  <span class="method-name">testSwitchSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTypeNullxPath">
+                  </a> <!-- testTypeNullxPath -->
+                  <span class="method-name">testTypeNullxPath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTypeSuccessWith1Word">
+                  </a> <!-- testTypeSuccessWith1Word -->
+                  <span class="method-name">testTypeSuccessWith1Word</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTypeSuccessWith2Words">
+                  </a> <!-- testTypeSuccessWith2Words -->
+                  <span class="method-name">testTypeSuccessWith2Words</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTypeSuccessWithAlt">
+                  </a> <!-- testTypeSuccessWithAlt -->
+                  <span class="method-name">testTypeSuccessWithAlt</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTypeSuccessWithAltAndWord">
+                  </a> <!-- testTypeSuccessWithAltAndWord -->
+                  <span class="method-name">testTypeSuccessWithAltAndWord</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTypeSuccessWithCtrl">
+                  </a> <!-- testTypeSuccessWithCtrl -->
+                  <span class="method-name">testTypeSuccessWithCtrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTypeSuccessWithCtrlAndWord">
+                  </a> <!-- testTypeSuccessWithCtrlAndWord -->
+                  <span class="method-name">testTypeSuccessWithCtrlAndWord</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTypeSuccessWithNull">
+                  </a> <!-- testTypeSuccessWithNull -->
+                  <span class="method-name">testTypeSuccessWithNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTypeSuccessWithShift">
+                  </a> <!-- testTypeSuccessWithShift -->
+                  <span class="method-name">testTypeSuccessWithShift</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTypeSuccessWithShiftAndWord">
+                  </a> <!-- testTypeSuccessWithShiftAndWord -->
+                  <span class="method-name">testTypeSuccessWithShiftAndWord</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWaitForElementFailure">
+                  </a> <!-- testWaitForElementFailure -->
+                  <span class="method-name">testWaitForElementFailure</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWaitForElementNull">
+                  </a> <!-- testWaitForElementNull -->
+                  <span class="method-name">testWaitForElementNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWaitForElementSuccess">
+                  </a> <!-- testWaitForElementSuccess -->
+                  <span class="method-name">testWaitForElementSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWaitLettersInValue">
+                  </a> <!-- testWaitLettersInValue -->
+                  <span class="method-name">testWaitLettersInValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWaitNegativeValue">
+                  </a> <!-- testWaitNegativeValue -->
+                  <span class="method-name">testWaitNegativeValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWaitSuccess">
+                  </a> <!-- testWaitSuccess -->
+                  <span class="method-name">testWaitSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWriteDynamicLineInvalid">
+                  </a> <!-- testWriteDynamicLineInvalid -->
+                  <span class="method-name">testWriteDynamicLineInvalid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWriteDynamicLineSuccess">
+                  </a> <!-- testWriteDynamicLineSuccess -->
+                  <span class="method-name">testWriteDynamicLineSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWriteDynamicValueInvalid">
+                  </a> <!-- testWriteDynamicValueInvalid -->
+                  <span class="method-name">testWriteDynamicValueInvalid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWriteDynamicValueSuccess">
+                  </a> <!-- testWriteDynamicValueSuccess -->
+                  <span class="method-name">testWriteDynamicValueSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Command line suite&quot;&gt;
+  &lt;test name=&quot;Command line test&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;knowler_unitTests.TestLogic&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(82);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testNavigateFailure')
+data.setCell(0, 2, 'knowler_unitTests.TestLogic')
+data.setCell(0, 3, 14539);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testWaitForElementFailure')
+data.setCell(1, 2, 'knowler_unitTests.TestLogic')
+data.setCell(1, 3, 10217);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testNavigateSuccess')
+data.setCell(2, 2, 'knowler_unitTests.TestLogic')
+data.setCell(2, 3, 1482);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testWaitSuccess')
+data.setCell(3, 2, 'knowler_unitTests.TestLogic')
+data.setCell(3, 3, 1000);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testPasteValueEmptyValue')
+data.setCell(4, 2, 'knowler_unitTests.TestLogic')
+data.setCell(4, 3, 254);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testClickXYSuccess')
+data.setCell(5, 2, 'knowler_unitTests.TestLogic')
+data.setCell(5, 3, 212);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testMoveMouseXYSuccess')
+data.setCell(6, 2, 'knowler_unitTests.TestLogic')
+data.setCell(6, 3, 209);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'excelManagerSuccess')
+data.setCell(7, 2, 'knowler_unitTests.TestLogic')
+data.setCell(7, 3, 197);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testClickSuccess')
+data.setCell(8, 2, 'knowler_unitTests.TestLogic')
+data.setCell(8, 3, 133);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testMoveMouseObjectSuccess')
+data.setCell(9, 2, 'knowler_unitTests.TestLogic')
+data.setCell(9, 3, 118);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'excelManagerTestDataSuccess')
+data.setCell(10, 2, 'knowler_unitTests.TestLogic')
+data.setCell(10, 3, 103);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testSetSuccess')
+data.setCell(11, 2, 'knowler_unitTests.TestLogic')
+data.setCell(11, 3, 89);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testSelectSuccess')
+data.setCell(12, 2, 'knowler_unitTests.TestLogic')
+data.setCell(12, 3, 82);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testPasteValueSuccess')
+data.setCell(13, 2, 'knowler_unitTests.TestLogic')
+data.setCell(13, 3, 71);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testCheckClassFail')
+data.setCell(14, 2, 'knowler_unitTests.TestLogic')
+data.setCell(14, 3, 68);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testCheckTextoFail')
+data.setCell(15, 2, 'knowler_unitTests.TestLogic')
+data.setCell(15, 3, 60);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'excelManagerFailure')
+data.setCell(16, 2, 'knowler_unitTests.TestLogic')
+data.setCell(16, 3, 59);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testPasteValueNullValue')
+data.setCell(17, 2, 'knowler_unitTests.TestLogic')
+data.setCell(17, 3, 53);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testCheckDisponivelNaoFail')
+data.setCell(18, 2, 'knowler_unitTests.TestLogic')
+data.setCell(18, 3, 46);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testTypeSuccessWithAltAndWord')
+data.setCell(19, 2, 'knowler_unitTests.TestLogic')
+data.setCell(19, 3, 46);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testSelectInvalidValue')
+data.setCell(20, 2, 'knowler_unitTests.TestLogic')
+data.setCell(20, 3, 46);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testTypeSuccessWithAlt')
+data.setCell(21, 2, 'knowler_unitTests.TestLogic')
+data.setCell(21, 3, 42);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testTypeSuccessWith1Word')
+data.setCell(22, 2, 'knowler_unitTests.TestLogic')
+data.setCell(22, 3, 39);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testTypeSuccessWithCtrl')
+data.setCell(23, 2, 'knowler_unitTests.TestLogic')
+data.setCell(23, 3, 36);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testWaitForElementSuccess')
+data.setCell(24, 2, 'knowler_unitTests.TestLogic')
+data.setCell(24, 3, 35);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testCheckVisivelNaoSuccess')
+data.setCell(25, 2, 'knowler_unitTests.TestLogic')
+data.setCell(25, 3, 33);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testTypeSuccessWith2Words')
+data.setCell(26, 2, 'knowler_unitTests.TestLogic')
+data.setCell(26, 3, 33);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testTypeSuccessWithShiftAndWord')
+data.setCell(27, 2, 'knowler_unitTests.TestLogic')
+data.setCell(27, 3, 31);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testCheckDisponivelSimSuccess')
+data.setCell(28, 2, 'knowler_unitTests.TestLogic')
+data.setCell(28, 3, 31);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testCheckInvalidXpath')
+data.setCell(29, 2, 'knowler_unitTests.TestLogic')
+data.setCell(29, 3, 30);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testCheckClassSuccess')
+data.setCell(30, 2, 'knowler_unitTests.TestLogic')
+data.setCell(30, 3, 29);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testCheckVisivelSimSuccess')
+data.setCell(31, 2, 'knowler_unitTests.TestLogic')
+data.setCell(31, 3, 29);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testTypeSuccessWithCtrlAndWord')
+data.setCell(32, 2, 'knowler_unitTests.TestLogic')
+data.setCell(32, 3, 28);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testPasteValueInvalidxPath')
+data.setCell(33, 2, 'knowler_unitTests.TestLogic')
+data.setCell(33, 3, 27);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testCheckTextoSuccess')
+data.setCell(34, 2, 'knowler_unitTests.TestLogic')
+data.setCell(34, 3, 27);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testCheckContemFail')
+data.setCell(35, 2, 'knowler_unitTests.TestLogic')
+data.setCell(35, 3, 25);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testCheckVisivelNaoFail')
+data.setCell(36, 2, 'knowler_unitTests.TestLogic')
+data.setCell(36, 3, 25);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testTypeSuccessWithShift')
+data.setCell(37, 2, 'knowler_unitTests.TestLogic')
+data.setCell(37, 3, 23);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testClickFailure')
+data.setCell(38, 2, 'knowler_unitTests.TestLogic')
+data.setCell(38, 3, 21);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testSetNull')
+data.setCell(39, 2, 'knowler_unitTests.TestLogic')
+data.setCell(39, 3, 20);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testCheckDisponivelNaoSuccess')
+data.setCell(40, 2, 'knowler_unitTests.TestLogic')
+data.setCell(40, 3, 20);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testCheckCorSuccess')
+data.setCell(41, 2, 'knowler_unitTests.TestLogic')
+data.setCell(41, 3, 18);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testSelectInvalidXpath')
+data.setCell(42, 2, 'knowler_unitTests.TestLogic')
+data.setCell(42, 3, 17);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testCheckCorFail')
+data.setCell(43, 2, 'knowler_unitTests.TestLogic')
+data.setCell(43, 3, 17);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testCheckVisivelSimFail')
+data.setCell(44, 2, 'knowler_unitTests.TestLogic')
+data.setCell(44, 3, 17);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testCheckDisponivelSimFail')
+data.setCell(45, 2, 'knowler_unitTests.TestLogic')
+data.setCell(45, 3, 17);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'testCheckContemSuccess')
+data.setCell(46, 2, 'knowler_unitTests.TestLogic')
+data.setCell(46, 3, 16);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'testSetInvalid')
+data.setCell(47, 2, 'knowler_unitTests.TestLogic')
+data.setCell(47, 3, 15);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'testSwitchSuccess')
+data.setCell(48, 2, 'knowler_unitTests.TestLogic')
+data.setCell(48, 3, 11);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'testCheckVisivelInvalidValue')
+data.setCell(49, 2, 'knowler_unitTests.TestLogic')
+data.setCell(49, 3, 11);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'testCheckDisponivelInvalidValue')
+data.setCell(50, 2, 'knowler_unitTests.TestLogic')
+data.setCell(50, 3, 11);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'testMoveMouseObjectInvalidxPath')
+data.setCell(51, 2, 'knowler_unitTests.TestLogic')
+data.setCell(51, 3, 10);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'testScrollXYSuccess')
+data.setCell(52, 2, 'knowler_unitTests.TestLogic')
+data.setCell(52, 3, 9);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'testCheckUrlSuccess')
+data.setCell(53, 2, 'knowler_unitTests.TestLogic')
+data.setCell(53, 3, 7);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'testCheckUrlFail')
+data.setCell(54, 2, 'knowler_unitTests.TestLogic')
+data.setCell(54, 3, 6);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'testSwitchInvalid')
+data.setCell(55, 2, 'knowler_unitTests.TestLogic')
+data.setCell(55, 3, 5);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'testSelectWindowSuccess')
+data.setCell(56, 2, 'knowler_unitTests.TestLogic')
+data.setCell(56, 3, 4);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'testReadDynamicLineSuccess')
+data.setCell(57, 2, 'knowler_unitTests.TestLogic')
+data.setCell(57, 3, 4);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'testWriteDynamicLineSuccess')
+data.setCell(58, 2, 'knowler_unitTests.TestLogic')
+data.setCell(58, 3, 2);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'testWriteDynamicValueSuccess')
+data.setCell(59, 2, 'knowler_unitTests.TestLogic')
+data.setCell(59, 3, 2);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'testMoveMouseObjectNullxPath')
+data.setCell(60, 2, 'knowler_unitTests.TestLogic')
+data.setCell(60, 3, 1);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'testReadDynamicValueSuccess')
+data.setCell(61, 2, 'knowler_unitTests.TestLogic')
+data.setCell(61, 3, 1);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'testWaitNegativeValue')
+data.setCell(62, 2, 'knowler_unitTests.TestLogic')
+data.setCell(62, 3, 0);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'testWriteDynamicLineInvalid')
+data.setCell(63, 2, 'knowler_unitTests.TestLogic')
+data.setCell(63, 3, 0);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'testClickXYInvalidY')
+data.setCell(64, 2, 'knowler_unitTests.TestLogic')
+data.setCell(64, 3, 0);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'testWaitForElementNull')
+data.setCell(65, 2, 'knowler_unitTests.TestLogic')
+data.setCell(65, 3, 0);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'testClickNull')
+data.setCell(66, 2, 'knowler_unitTests.TestLogic')
+data.setCell(66, 3, 0);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'testMoveMouseXYInvalidX')
+data.setCell(67, 2, 'knowler_unitTests.TestLogic')
+data.setCell(67, 3, 0);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'testWriteDynamicValueInvalid')
+data.setCell(68, 2, 'knowler_unitTests.TestLogic')
+data.setCell(68, 3, 0);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'testClickXYInvalidX')
+data.setCell(69, 2, 'knowler_unitTests.TestLogic')
+data.setCell(69, 3, 0);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'testCheckNullxPath')
+data.setCell(70, 2, 'knowler_unitTests.TestLogic')
+data.setCell(70, 3, 0);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'testTypeSuccessWithNull')
+data.setCell(71, 2, 'knowler_unitTests.TestLogic')
+data.setCell(71, 3, 0);
+data.setCell(72, 0, 72)
+data.setCell(72, 1, 'testMoveMouseXYInvalidXY')
+data.setCell(72, 2, 'knowler_unitTests.TestLogic')
+data.setCell(72, 3, 0);
+data.setCell(73, 0, 73)
+data.setCell(73, 1, 'testCheckInvalidAttributeName')
+data.setCell(73, 2, 'knowler_unitTests.TestLogic')
+data.setCell(73, 3, 0);
+data.setCell(74, 0, 74)
+data.setCell(74, 1, 'excelManagerTestDataFailure')
+data.setCell(74, 2, 'knowler_unitTests.TestLogic')
+data.setCell(74, 3, 0);
+data.setCell(75, 0, 75)
+data.setCell(75, 1, 'testMoveMouseXYInvalidY')
+data.setCell(75, 2, 'knowler_unitTests.TestLogic')
+data.setCell(75, 3, 0);
+data.setCell(76, 0, 76)
+data.setCell(76, 1, 'testSelectNullxPath')
+data.setCell(76, 2, 'knowler_unitTests.TestLogic')
+data.setCell(76, 3, 0);
+data.setCell(77, 0, 77)
+data.setCell(77, 1, 'testTypeNullxPath')
+data.setCell(77, 2, 'knowler_unitTests.TestLogic')
+data.setCell(77, 3, 0);
+data.setCell(78, 0, 78)
+data.setCell(78, 1, 'testClickXYInvalidXY')
+data.setCell(78, 2, 'knowler_unitTests.TestLogic')
+data.setCell(78, 3, 0);
+data.setCell(79, 0, 79)
+data.setCell(79, 1, 'testWaitLettersInValue')
+data.setCell(79, 2, 'knowler_unitTests.TestLogic')
+data.setCell(79, 3, 0);
+data.setCell(80, 0, 80)
+data.setCell(80, 1, 'testPasteValueNullxPath')
+data.setCell(80, 2, 'knowler_unitTests.TestLogic')
+data.setCell(80, 3, 0);
+data.setCell(81, 0, 81)
+data.setCell(81, 1, 'testScrollXYInvalidX')
+data.setCell(81, 2, 'knowler_unitTests.TestLogic')
+data.setCell(81, 3, 0);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">knowler_unitTests.TestLogic</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">InicializeBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">6621 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">excelManagerFailure</span>
+                <span class="method-start">6630 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=excelManagerFailure status=SUCCESS method=TestLogic.excelManagerFailure()[pri:0, in...)</span>
+                <span class="method-start">6689 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">7092 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">excelManagerSuccess</span>
+                <span class="method-start">7092 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=excelManagerSuccess status=SUCCESS method=TestLogic.excelManagerSuccess()[pri:0, in...)</span>
+                <span class="method-start">7289 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">7705 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">excelManagerTestDataFailure</span>
+                <span class="method-start">7706 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=excelManagerTestDataFailure status=SUCCESS method=TestLogic.excelManagerTestDataFai...)</span>
+                <span class="method-start">7707 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">8057 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">excelManagerTestDataSuccess</span>
+                <span class="method-start">8057 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=excelManagerTestDataSuccess status=SUCCESS method=TestLogic.excelManagerTestDataSuc...)</span>
+                <span class="method-start">8160 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">8519 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckClassFail</span>
+                <span class="method-start">8519 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testCheckClassFail status=SUCCESS method=TestLogic.testCheckClassFail()[pri:0, inst...)</span>
+                <span class="method-start">8587 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">8941 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckClassSuccess</span>
+                <span class="method-start">8941 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testCheckClassSuccess status=SUCCESS method=TestLogic.testCheckClassSuccess()[pri:0...)</span>
+                <span class="method-start">8970 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">9325 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckContemFail</span>
+                <span class="method-start">9325 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testCheckContemFail status=SUCCESS method=TestLogic.testCheckContemFail()[pri:0, in...)</span>
+                <span class="method-start">9350 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">9711 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckContemSuccess</span>
+                <span class="method-start">9711 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testCheckContemSuccess status=SUCCESS method=TestLogic.testCheckContemSuccess()[pri...)</span>
+                <span class="method-start">9727 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">10070 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckCorFail</span>
+                <span class="method-start">10071 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testCheckCorFail status=SUCCESS method=TestLogic.testCheckCorFail()[pri:0, instance...)</span>
+                <span class="method-start">10088 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">10440 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckCorSuccess</span>
+                <span class="method-start">10440 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testCheckCorSuccess status=SUCCESS method=TestLogic.testCheckCorSuccess()[pri:0, in...)</span>
+                <span class="method-start">10459 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">10801 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckDisponivelInvalidValue</span>
+                <span class="method-start">10802 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testCheckDisponivelInvalidValue status=SUCCESS method=TestLogic.testCheckDisponivel...)</span>
+                <span class="method-start">10813 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">11155 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckDisponivelNaoFail</span>
+                <span class="method-start">11155 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testCheckDisponivelNaoFail status=SUCCESS method=TestLogic.testCheckDisponivelNaoFa...)</span>
+                <span class="method-start">11201 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">11544 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckDisponivelNaoSuccess</span>
+                <span class="method-start">11544 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testCheckDisponivelNaoSuccess status=SUCCESS method=TestLogic.testCheckDisponivelNa...)</span>
+                <span class="method-start">11564 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">11902 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckDisponivelSimFail</span>
+                <span class="method-start">11902 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testCheckDisponivelSimFail status=SUCCESS method=TestLogic.testCheckDisponivelSimFa...)</span>
+                <span class="method-start">11919 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">12299 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckDisponivelSimSuccess</span>
+                <span class="method-start">12299 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testCheckDisponivelSimSuccess status=SUCCESS method=TestLogic.testCheckDisponivelSi...)</span>
+                <span class="method-start">12330 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">12710 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckInvalidAttributeName</span>
+                <span class="method-start">12711 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testCheckInvalidAttributeName status=SUCCESS method=TestLogic.testCheckInvalidAttri...)</span>
+                <span class="method-start">12711 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">13113 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckInvalidXpath</span>
+                <span class="method-start">13113 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testCheckInvalidXpath status=SUCCESS method=TestLogic.testCheckInvalidXpath()[pri:0...)</span>
+                <span class="method-start">13143 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">13569 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckNullxPath</span>
+                <span class="method-start">13569 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testCheckNullxPath status=SUCCESS method=TestLogic.testCheckNullxPath()[pri:0, inst...)</span>
+                <span class="method-start">13569 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">13972 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckTextoFail</span>
+                <span class="method-start">13972 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testCheckTextoFail status=SUCCESS method=TestLogic.testCheckTextoFail()[pri:0, inst...)</span>
+                <span class="method-start">14033 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">14451 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckTextoSuccess</span>
+                <span class="method-start">14451 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testCheckTextoSuccess status=SUCCESS method=TestLogic.testCheckTextoSuccess()[pri:0...)</span>
+                <span class="method-start">14478 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">14873 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckUrlFail</span>
+                <span class="method-start">14873 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testCheckUrlFail status=SUCCESS method=TestLogic.testCheckUrlFail()[pri:0, instance...)</span>
+                <span class="method-start">14879 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">15285 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckUrlSuccess</span>
+                <span class="method-start">15285 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testCheckUrlSuccess status=SUCCESS method=TestLogic.testCheckUrlSuccess()[pri:0, in...)</span>
+                <span class="method-start">15292 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">15676 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckVisivelInvalidValue</span>
+                <span class="method-start">15693 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testCheckVisivelInvalidValue status=SUCCESS method=TestLogic.testCheckVisivelInvali...)</span>
+                <span class="method-start">15704 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">16116 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckVisivelNaoFail</span>
+                <span class="method-start">16116 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testCheckVisivelNaoFail status=SUCCESS method=TestLogic.testCheckVisivelNaoFail()[p...)</span>
+                <span class="method-start">16141 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">16564 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckVisivelNaoSuccess</span>
+                <span class="method-start">16564 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testCheckVisivelNaoSuccess status=SUCCESS method=TestLogic.testCheckVisivelNaoSucce...)</span>
+                <span class="method-start">16597 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">16947 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckVisivelSimFail</span>
+                <span class="method-start">16947 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testCheckVisivelSimFail status=SUCCESS method=TestLogic.testCheckVisivelSimFail()[p...)</span>
+                <span class="method-start">16964 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">17350 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckVisivelSimSuccess</span>
+                <span class="method-start">17350 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testCheckVisivelSimSuccess status=SUCCESS method=TestLogic.testCheckVisivelSimSucce...)</span>
+                <span class="method-start">17379 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">17728 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickFailure</span>
+                <span class="method-start">17728 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testClickFailure status=SUCCESS method=TestLogic.testClickFailure()[pri:0, instance...)</span>
+                <span class="method-start">17750 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">18135 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickNull</span>
+                <span class="method-start">18135 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testClickNull status=SUCCESS method=TestLogic.testClickNull()[pri:0, instance:knowl...)</span>
+                <span class="method-start">18135 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">18517 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickSuccess</span>
+                <span class="method-start">18517 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testClickSuccess status=SUCCESS method=TestLogic.testClickSuccess()[pri:0, instance...)</span>
+                <span class="method-start">18650 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">19056 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickXYInvalidX</span>
+                <span class="method-start">19056 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testClickXYInvalidX status=SUCCESS method=TestLogic.testClickXYInvalidX()[pri:0, in...)</span>
+                <span class="method-start">19056 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">19418 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickXYInvalidXY</span>
+                <span class="method-start">19419 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testClickXYInvalidXY status=SUCCESS method=TestLogic.testClickXYInvalidXY()[pri:0, ...)</span>
+                <span class="method-start">19419 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">19751 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickXYInvalidY</span>
+                <span class="method-start">19751 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testClickXYInvalidY status=SUCCESS method=TestLogic.testClickXYInvalidY()[pri:0, in...)</span>
+                <span class="method-start">19751 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">20086 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickXYSuccess</span>
+                <span class="method-start">20086 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testClickXYSuccess status=SUCCESS method=TestLogic.testClickXYSuccess()[pri:0, inst...)</span>
+                <span class="method-start">20298 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">20676 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMoveMouseObjectInvalidxPath</span>
+                <span class="method-start">20676 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testMoveMouseObjectInvalidxPath status=SUCCESS method=TestLogic.testMoveMouseObject...)</span>
+                <span class="method-start">20686 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">21042 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMoveMouseObjectNullxPath</span>
+                <span class="method-start">21042 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testMoveMouseObjectNullxPath status=SUCCESS method=TestLogic.testMoveMouseObjectNul...)</span>
+                <span class="method-start">21043 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">21392 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMoveMouseObjectSuccess</span>
+                <span class="method-start">21392 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testMoveMouseObjectSuccess status=SUCCESS method=TestLogic.testMoveMouseObjectSucce...)</span>
+                <span class="method-start">21510 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">21853 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMoveMouseXYInvalidX</span>
+                <span class="method-start">21853 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testMoveMouseXYInvalidX status=SUCCESS method=TestLogic.testMoveMouseXYInvalidX()[p...)</span>
+                <span class="method-start">21853 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">22208 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMoveMouseXYInvalidXY</span>
+                <span class="method-start">22208 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testMoveMouseXYInvalidXY status=SUCCESS method=TestLogic.testMoveMouseXYInvalidXY()...)</span>
+                <span class="method-start">22208 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">22552 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMoveMouseXYInvalidY</span>
+                <span class="method-start">22552 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testMoveMouseXYInvalidY status=SUCCESS method=TestLogic.testMoveMouseXYInvalidY()[p...)</span>
+                <span class="method-start">22552 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">22906 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMoveMouseXYSuccess</span>
+                <span class="method-start">22906 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testMoveMouseXYSuccess status=SUCCESS method=TestLogic.testMoveMouseXYSuccess()[pri...)</span>
+                <span class="method-start">23115 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">23461 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testNavigateFailure</span>
+                <span class="method-start">23461 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testNavigateFailure status=SUCCESS method=TestLogic.testNavigateFailure()[pri:0, in...)</span>
+                <span class="method-start">38000 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">39021 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testNavigateSuccess</span>
+                <span class="method-start">39021 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testNavigateSuccess status=SUCCESS method=TestLogic.testNavigateSuccess()[pri:0, in...)</span>
+                <span class="method-start">40503 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">41643 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasteValueEmptyValue</span>
+                <span class="method-start">41643 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testPasteValueEmptyValue status=SUCCESS method=TestLogic.testPasteValueEmptyValue()...)</span>
+                <span class="method-start">41897 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">42276 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasteValueInvalidxPath</span>
+                <span class="method-start">42276 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testPasteValueInvalidxPath status=SUCCESS method=TestLogic.testPasteValueInvalidxPa...)</span>
+                <span class="method-start">42303 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">42664 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasteValueNullValue</span>
+                <span class="method-start">42664 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testPasteValueNullValue status=SUCCESS method=TestLogic.testPasteValueNullValue()[p...)</span>
+                <span class="method-start">42717 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">43062 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasteValueNullxPath</span>
+                <span class="method-start">43062 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testPasteValueNullxPath status=SUCCESS method=TestLogic.testPasteValueNullxPath()[p...)</span>
+                <span class="method-start">43062 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">43419 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasteValueSuccess</span>
+                <span class="method-start">43419 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testPasteValueSuccess status=SUCCESS method=TestLogic.testPasteValueSuccess()[pri:0...)</span>
+                <span class="method-start">43490 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">43851 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testReadDynamicLineSuccess</span>
+                <span class="method-start">43851 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testReadDynamicLineSuccess status=SUCCESS method=TestLogic.testReadDynamicLineSucce...)</span>
+                <span class="method-start">43855 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">44242 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testReadDynamicValueSuccess</span>
+                <span class="method-start">44242 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testReadDynamicValueSuccess status=SUCCESS method=TestLogic.testReadDynamicValueSuc...)</span>
+                <span class="method-start">44243 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">44603 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testScrollXYInvalidX</span>
+                <span class="method-start">44603 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testScrollXYInvalidX status=SUCCESS method=TestLogic.testScrollXYInvalidX()[pri:0, ...)</span>
+                <span class="method-start">44603 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">44969 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testScrollXYSuccess</span>
+                <span class="method-start">44969 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testScrollXYSuccess status=SUCCESS method=TestLogic.testScrollXYSuccess()[pri:0, in...)</span>
+                <span class="method-start">44978 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">45322 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSelectInvalidValue</span>
+                <span class="method-start">45322 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testSelectInvalidValue status=SUCCESS method=TestLogic.testSelectInvalidValue()[pri...)</span>
+                <span class="method-start">45368 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">45719 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSelectInvalidXpath</span>
+                <span class="method-start">45719 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testSelectInvalidXpath status=SUCCESS method=TestLogic.testSelectInvalidXpath()[pri...)</span>
+                <span class="method-start">45736 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">46091 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSelectNullxPath</span>
+                <span class="method-start">46091 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testSelectNullxPath status=SUCCESS method=TestLogic.testSelectNullxPath()[pri:0, in...)</span>
+                <span class="method-start">46091 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">46434 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSelectSuccess</span>
+                <span class="method-start">46434 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testSelectSuccess status=SUCCESS method=TestLogic.testSelectSuccess()[pri:0, instan...)</span>
+                <span class="method-start">46516 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">46869 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSelectWindowSuccess</span>
+                <span class="method-start">46869 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testSelectWindowSuccess status=SUCCESS method=TestLogic.testSelectWindowSuccess()[p...)</span>
+                <span class="method-start">46873 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">47223 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSetInvalid</span>
+                <span class="method-start">47223 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testSetInvalid status=SUCCESS method=TestLogic.testSetInvalid()[pri:0, instance:kno...)</span>
+                <span class="method-start">47238 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">47587 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSetNull</span>
+                <span class="method-start">47587 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testSetNull status=SUCCESS method=TestLogic.testSetNull()[pri:0, instance:knowler_u...)</span>
+                <span class="method-start">47608 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">47950 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSetSuccess</span>
+                <span class="method-start">47950 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testSetSuccess status=SUCCESS method=TestLogic.testSetSuccess()[pri:0, instance:kno...)</span>
+                <span class="method-start">48039 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">48402 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSwitchInvalid</span>
+                <span class="method-start">48402 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testSwitchInvalid status=SUCCESS method=TestLogic.testSwitchInvalid()[pri:0, instan...)</span>
+                <span class="method-start">48407 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">48777 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSwitchSuccess</span>
+                <span class="method-start">48777 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testSwitchSuccess status=SUCCESS method=TestLogic.testSwitchSuccess()[pri:0, instan...)</span>
+                <span class="method-start">48788 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">49227 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTypeNullxPath</span>
+                <span class="method-start">49227 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testTypeNullxPath status=SUCCESS method=TestLogic.testTypeNullxPath()[pri:0, instan...)</span>
+                <span class="method-start">49227 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">49603 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTypeSuccessWith1Word</span>
+                <span class="method-start">49603 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testTypeSuccessWith1Word status=SUCCESS method=TestLogic.testTypeSuccessWith1Word()...)</span>
+                <span class="method-start">49642 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">50080 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTypeSuccessWith2Words</span>
+                <span class="method-start">50080 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testTypeSuccessWith2Words status=SUCCESS method=TestLogic.testTypeSuccessWith2Words...)</span>
+                <span class="method-start">50113 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">50491 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTypeSuccessWithAlt</span>
+                <span class="method-start">50491 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testTypeSuccessWithAlt status=SUCCESS method=TestLogic.testTypeSuccessWithAlt()[pri...)</span>
+                <span class="method-start">50533 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">50910 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTypeSuccessWithAltAndWord</span>
+                <span class="method-start">50910 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testTypeSuccessWithAltAndWord status=SUCCESS method=TestLogic.testTypeSuccessWithAl...)</span>
+                <span class="method-start">50956 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">51349 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTypeSuccessWithCtrl</span>
+                <span class="method-start">51349 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testTypeSuccessWithCtrl status=SUCCESS method=TestLogic.testTypeSuccessWithCtrl()[p...)</span>
+                <span class="method-start">51385 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">51740 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTypeSuccessWithCtrlAndWord</span>
+                <span class="method-start">51740 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testTypeSuccessWithCtrlAndWord status=SUCCESS method=TestLogic.testTypeSuccessWithC...)</span>
+                <span class="method-start">51768 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">52109 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTypeSuccessWithNull</span>
+                <span class="method-start">52109 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testTypeSuccessWithNull status=SUCCESS method=TestLogic.testTypeSuccessWithNull()[p...)</span>
+                <span class="method-start">52109 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">52452 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTypeSuccessWithShift</span>
+                <span class="method-start">52452 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testTypeSuccessWithShift status=SUCCESS method=TestLogic.testTypeSuccessWithShift()...)</span>
+                <span class="method-start">52475 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">52820 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTypeSuccessWithShiftAndWord</span>
+                <span class="method-start">52820 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testTypeSuccessWithShiftAndWord status=SUCCESS method=TestLogic.testTypeSuccessWith...)</span>
+                <span class="method-start">52851 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">53208 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWaitForElementFailure</span>
+                <span class="method-start">53208 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testWaitForElementFailure status=SUCCESS method=TestLogic.testWaitForElementFailure...)</span>
+                <span class="method-start">63425 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">63813 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWaitForElementNull</span>
+                <span class="method-start">63813 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testWaitForElementNull status=SUCCESS method=TestLogic.testWaitForElementNull()[pri...)</span>
+                <span class="method-start">63813 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">64159 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWaitForElementSuccess</span>
+                <span class="method-start">64159 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testWaitForElementSuccess status=SUCCESS method=TestLogic.testWaitForElementSuccess...)</span>
+                <span class="method-start">64194 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">64540 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWaitLettersInValue</span>
+                <span class="method-start">64540 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testWaitLettersInValue status=SUCCESS method=TestLogic.testWaitLettersInValue()[pri...)</span>
+                <span class="method-start">64540 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">64902 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWaitNegativeValue</span>
+                <span class="method-start">64902 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testWaitNegativeValue status=SUCCESS method=TestLogic.testWaitNegativeValue()[pri:0...)</span>
+                <span class="method-start">64902 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">65251 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWaitSuccess</span>
+                <span class="method-start">65251 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testWaitSuccess status=SUCCESS method=TestLogic.testWaitSuccess()[pri:0, instance:k...)</span>
+                <span class="method-start">66251 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">66601 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWriteDynamicLineInvalid</span>
+                <span class="method-start">66601 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testWriteDynamicLineInvalid status=SUCCESS method=TestLogic.testWriteDynamicLineInv...)</span>
+                <span class="method-start">66601 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">66944 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWriteDynamicLineSuccess</span>
+                <span class="method-start">66945 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testWriteDynamicLineSuccess status=SUCCESS method=TestLogic.testWriteDynamicLineSuc...)</span>
+                <span class="method-start">66947 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">67315 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWriteDynamicValueInvalid</span>
+                <span class="method-start">67315 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testWriteDynamicValueInvalid status=SUCCESS method=TestLogic.testWriteDynamicValueI...)</span>
+                <span class="method-start">67315 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InicializeVariables</span>
+                <span class="method-start">67723 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWriteDynamicValueSuccess</span>
+                <span class="method-start">67723 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">goBack([TestResult name=testWriteDynamicValueSuccess status=SUCCESS method=TestLogic.testWriteDynamicValueS...)</span>
+                <span class="method-start">67725 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">FinalizeBrowser</span>
+                <span class="method-start">68156 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
